@@ -1,0 +1,145 @@
+.app{
+  display:flex;
+  height:100vh;
+  margin-top:100px
+}
+.app_body{
+  margin: 40px;
+  display: flex;
+  background-color: #fafafa;
+  width: 90vw;
+  height: 90vh;
+  box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.7);
+  margin-top: -50px;
+}
+.app_left{
+  margin-top: 70px;
+  margin-left: 140px;
+}
+.app_mainHeader{
+  margin-bottom: 60px;
+  color: #F7D832;
+}
+.app_middleLogin{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.app_loginDetails{
+  font-size: x-small;
+  color:gray;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+.app_email{
+  margin-bottom:13px;
+  width: 100%;
+}
+.app_password{
+  width: 100%;
+}
+.app_email>h4{
+  margin-bottom:5px;
+}
+.app_email >input{
+  padding:10px;
+  background-color: #F0F0F0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.app_password > h4{
+  margin-bottom:5px;
+}
+.app_password>input{
+  padding:10px;
+  background-color: #F0F0F0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width:100%;
+}
+.app_bottom{
+  display:flex;
+  align-items: center;
+  position:absolute;
+  bottom:60px;
+}
+.app_bottom > h4{
+  padding-right: 14px;
+  color:#333333;
+  font-size:14px;
+}
+.app_loginButton{
+  margin-top: 33px !important;
+   width: 107% !important; 
+  background-color:  #F7D832 !important;
+  text-transform: inherit !important;
+}
+.app_button > h4{
+  margin-top:30px;
+}
+.app_button > h4> .app_span{
+  cursor: pointer;
+}
+.app_button > h4{
+  font-size: 15px;
+  font-weight: 600;
+}
+.app_button > h4 > .app_span:hover{
+  text-decoration:underline;
+}
+.app_right{
+  position: absolute;
+  margin:40px;
+  padding-left: 20px;
+  top: 10%; 
+ right:5% ;
+}
+.app_test{
+  background-color: #F7D832;
+  width:100px;
+  text-align:center;
+  align-items:center;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  font-weight: 15px;
+  text-align: center;
+  right:47px;
+  position: absolute;
+}
+#circle {
+    background: #FFE999;
+    position: absolute;
+    border-radius: 30%;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius:35%;
+    right:6.3%;
+    width: 570px;
+    height: 520px;
+    padding: 30px;
+}
+.app_rightMiddle{
+  position: relative;
+  margin-top: 120px;
+  margin-left: 90px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.app_content{
+   position: relative;
+  font-size:medium;
+  margin-right: 20px;
+}
+.app_image{
+  width: 150px;
+  height:150px;
+  object-fit: contain;
+  margin:10px 170px;
+}
